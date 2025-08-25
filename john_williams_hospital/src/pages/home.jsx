@@ -7,13 +7,13 @@ const Home = () => {
             {/* Text Content */}
             <div className='w-full max-w-[655px] lg:w-[655px] text-center lg:text-left'>
                 <div className='bg-gradient-to-r from-[#3A8EF6] to-[#6F3AFA] bg-clip-text text-transparent'>
-                    <h1 className='text-3xl sm:text-3xl md:text-6xl lg:text-4xl xl:text-[40px] font-bold leading-tight'>
+                    <h1 className='text-3xl sm:text-3xl md:text-6xl lg:text-4xl xl:text-[50px] font-bold leading-[1.1] sm:leading-[1.1] md:leading-[1.2] lg:leading-[1.1] xl:leading-[1.2]'>
                         Welcome to
                     </h1>
-                    <h1 className='text-3xl sm:text-3xl md:text-6xl lg:text-4xl xl:text-[40px] font-bold leading-tight'>
+                    <h1 className='text-3xl sm:text-3xl md:text-6xl lg:text-4xl xl:text-[50px] font-bold leading-[1.1] sm:leading-[1.1] md:leading-[1.2] lg:leading-[1.1] xl:leading-[1.2]'>
                         John Williams
                     </h1>
-                    <h1 className='text-3xl sm:text-3xl md:text-6xl lg:text-4xl xl:text-[40px] font-bold leading-tight'>
+                    <h1 className='text-3xl sm:text-3xl md:text-6xl lg:text-4xl xl:text-[50px] font-bold leading-[1.1] sm:leading-[1.1] md:leading-[1.2] lg:leading-[1.1] xl:leading-[1.2]'>
                         Hospital
                     </h1>
                 </div>
@@ -22,7 +22,7 @@ const Home = () => {
                         A hospital is an integral part of a social and health organization with the function of providing comprehensive services.
                     </p>
                 </div>
-                
+
                 {/* Optional CTA Button for mobile */}
                 <div className='mt-6 sm:mt-8 lg:hidden'>
                     <button className='px-6 py-3 sm:px-8 sm:py-4 rounded-full bg-gradient-to-r from-[#3A8EF6] to-[#6F3AFA] font-semibold text-white text-sm sm:text-base'>
@@ -33,9 +33,9 @@ const Home = () => {
 
             {/* Doctor Image */}
             <div className='max-w-[400px] sm:max-w-[487px] lg:max-w-none lg:flex-shrink-0'>
-                <img 
-                    src={doctor_img} 
-                    alt="Doctor illustration" 
+                <img
+                    src={doctor_img}
+                    alt="Doctor illustration"
                     className='w-full h-auto max-w-[300px] sm:max-w-[400px] lg:max-w-[500px] xl:max-w-[600px] mx-auto'
                 />
             </div>
