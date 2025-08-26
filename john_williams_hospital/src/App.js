@@ -2,6 +2,7 @@ import Header from "./components/header";
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import Home from "./pages/home";
 import Index from "./pages";
+import Footer from "./components/footer";
 
 export default function App() {
   return (

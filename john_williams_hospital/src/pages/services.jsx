@@ -11,19 +11,19 @@ const Services = () => {
             'id': 1,
             'image': pharmacy,
             'title': '24 Hour Pharmacy',
-            'description': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.'
+            'description': 'Our round-the-clock pharmacy ensures you have access to essential medications anytime. Staffed with licensed pharmacists who provide expert consultation and medication management services.'
         },
         {
             'id': 2,
             'image': checkup,
             'title': 'General Checkup',
-            'description': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.'
+            'description': 'Comprehensive health screenings and preventive care services. Our experienced physicians conduct thorough examinations to detect early signs of health issues and maintain your overall wellness.'
         },
         {
             'id': 3,
             'image': professional,
             'title': 'Professional Doctors',
-            'description': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.'
+            'description': 'Our team of board-certified specialists and experienced physicians are dedicated to providing exceptional medical care with personalized treatment plans tailored to your specific health needs.'
         }
     ]
 
@@ -39,7 +39,7 @@ const Services = () => {
                     </div>
                     <div className='font-sora text-slate-500 text-sm sm:text-base lg:max-w-[565px] text-center lg:text-left'>
                         <p>
-                            A hospital is an integral part of a social and health organization with the function of providing comprehensive services.
+                            We offer a complete spectrum of healthcare services delivered by experienced medical professionals committed to your health and well-being.
                         </p>
                     </div>
                 </div>
@@ -84,7 +84,7 @@ const Services = () => {
                 </div>
                 <div className='w-[300px] md:w-[430px] lg:w-[485px] font-sora'>
                     <h2 className='font-semibold text-[24px] md:text-[28px] lg:text-[32px]'>The best service from the most experienced medical experts</h2>
-                    <p className='text-slate-500 mt-4 text-[14px] md:text-[16px] lg:text-[16px]'>A hospital is an integral part of a social and health organization with the function of providing comprehensive services.</p>
+                    <p className='text-slate-500 mt-4 text-[14px] md:text-[16px] lg:text-[16px]'>Trust our skilled healthcare team to deliver comprehensive medical care with proven expertise, cutting-edge treatments, and compassionate service excellence.</p>
                     <button className='my-4 px-6 py-2 sm:px-8 sm:py-4 rounded-full bg-gradient-to-r from-[#3A8EF6] to-[#6F3AFA] font-semibold text-white text-sm sm:text-base flex flex-row items-center justify-around'>
                         <div className=''>
                             <img
